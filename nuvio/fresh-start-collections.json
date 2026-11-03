@@ -1,0 +1,704 @@
+[
+  {
+    "id": "nuvio-fresh-discover",
+    "title": "Discover",
+    "folders": [
+      {
+        "id": "nuvio-fresh-discover-new-movies",
+        "title": "New Movies",
+        "sources": [
+          {
+            "title": "Recently Released Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": null,
+            "filters": {
+              "voteCountGte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      },
+      {
+        "id": "nuvio-fresh-discover-popular-movies",
+        "title": "Popular Movies",
+        "sources": [
+          {
+            "title": "Popular Movies",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "voteCountGte": 60
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      },
+      {
+        "id": "nuvio-fresh-discover-top-rated",
+        "title": "Top Rated",
+        "sources": [
+          {
+            "title": "Acclaimed Movies",
+            "sortBy": "vote_average.desc",
+            "tmdbId": null,
+            "filters": {
+              "voteCountGte": 800,
+              "voteAverageGte": 7
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      },
+      {
+        "id": "nuvio-fresh-discover-tv-series",
+        "title": "TV & Series",
+        "sources": [
+          {
+            "title": "Popular Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "voteCountGte": 35
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      }
+    ],
+    "pinToTop": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": false,
+    "backdropImageUrl": null,
+    "focusGlowEnabled": false
+  },
+  {
+    "id": "nuvio-fresh-malayalam-cinema",
+    "title": "Malayalam Cinema",
+    "folders": [
+      {
+        "id": "nuvio-fresh-malayalam-cinema-new-malayalam",
+        "title": "New Malayalam",
+        "sources": [
+          {
+            "title": "New Malayalam Movies",
+            "sortBy": "primary_release_date.desc",
+            "tmdbId": null,
+            "filters": {
+              "withOriginalLanguage": "ml",
+              "voteCountGte": 1
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      },
+      {
+        "id": "nuvio-fresh-malayalam-cinema-popular-malayalam",
+        "title": "Popular Malayalam",
+        "sources": [
+          {
+            "title": "Popular Malayalam Movies",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withOriginalLanguage": "ml",
+              "voteCountGte": 5
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      },
+      {
+        "id": "nuvio-fresh-malayalam-cinema-critically-acclaimed",
+        "title": "Critically Acclaimed",
+        "sources": [
+          {
+            "title": "Malayalam Gems",
+            "sortBy": "vote_average.desc",
+            "tmdbId": null,
+            "filters": {
+              "withOriginalLanguage": "ml",
+              "voteCountGte": 50,
+              "voteAverageGte": 7
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      },
+      {
+        "id": "nuvio-fresh-malayalam-cinema-malayalam-classics",
+        "title": "Malayalam Classics",
+        "sources": [
+          {
+            "title": "Malayalam Classics",
+            "sortBy": "vote_average.desc",
+            "tmdbId": null,
+            "filters": {
+              "withOriginalLanguage": "ml",
+              "releaseDateLte": "2015-12-31",
+              "voteCountGte": 10
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      },
+      {
+        "id": "nuvio-fresh-malayalam-cinema-malayalam-series",
+        "title": "Malayalam Series",
+        "sources": [
+          {
+            "title": "Malayalam TV and Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withOriginalLanguage": "ml"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      }
+    ],
+    "pinToTop": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": false,
+    "backdropImageUrl": null,
+    "focusGlowEnabled": false
+  },
+  {
+    "id": "nuvio-fresh-streaming-platforms-india",
+    "title": "Streaming Platforms · India",
+    "folders": [
+      {
+        "id": "nuvio-fresh-streaming-platforms-india-netflix",
+        "title": "Netflix",
+        "sources": [
+          {
+            "title": "Netflix Movies",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withWatchProviders": "8",
+              "watchRegion": "IN"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          },
+          {
+            "title": "Netflix Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withWatchProviders": "8",
+              "watchRegion": "IN"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      },
+      {
+        "id": "nuvio-fresh-streaming-platforms-india-prime-video",
+        "title": "Prime Video",
+        "sources": [
+          {
+            "title": "Prime Video Movies",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "IN"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          },
+          {
+            "title": "Prime Video Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withWatchProviders": "9|119",
+              "watchRegion": "IN"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      },
+      {
+        "id": "nuvio-fresh-streaming-platforms-india-jiohotstar",
+        "title": "JioHotstar",
+        "sources": [
+          {
+            "title": "JioHotstar Movies",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withWatchProviders": "122",
+              "watchRegion": "IN"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          },
+          {
+            "title": "JioHotstar Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withWatchProviders": "122",
+              "watchRegion": "IN"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      },
+      {
+        "id": "nuvio-fresh-streaming-platforms-india-sonyliv",
+        "title": "SonyLIV",
+        "sources": [
+          {
+            "title": "SonyLIV Movies",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withWatchProviders": "237",
+              "watchRegion": "IN"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          },
+          {
+            "title": "SonyLIV Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withWatchProviders": "237",
+              "watchRegion": "IN"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      },
+      {
+        "id": "nuvio-fresh-streaming-platforms-india-zee5",
+        "title": "ZEE5",
+        "sources": [
+          {
+            "title": "ZEE5 Movies",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withWatchProviders": "232",
+              "watchRegion": "IN"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          },
+          {
+            "title": "ZEE5 Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withWatchProviders": "232",
+              "watchRegion": "IN"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      },
+      {
+        "id": "nuvio-fresh-streaming-platforms-india-apple-tv",
+        "title": "Apple TV+",
+        "sources": [
+          {
+            "title": "Apple TV+ Movies",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "IN"
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          },
+          {
+            "title": "Apple TV+ Series",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withWatchProviders": "350",
+              "watchRegion": "IN"
+            },
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      }
+    ],
+    "pinToTop": false,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": false,
+    "backdropImageUrl": null,
+    "focusGlowEnabled": false
+  },
+  {
+    "id": "nuvio-fresh-browse-by-genre",
+    "title": "Browse by Genre",
+    "folders": [
+      {
+        "id": "nuvio-fresh-browse-by-genre-action",
+        "title": "Action",
+        "sources": [
+          {
+            "title": "Action Movies",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withGenres": "28",
+              "voteCountGte": 80
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      },
+      {
+        "id": "nuvio-fresh-browse-by-genre-thriller",
+        "title": "Thriller",
+        "sources": [
+          {
+            "title": "Thriller Movies",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withGenres": "53",
+              "voteCountGte": 80
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      },
+      {
+        "id": "nuvio-fresh-browse-by-genre-horror",
+        "title": "Horror",
+        "sources": [
+          {
+            "title": "Horror Movies",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withGenres": "27",
+              "voteCountGte": 80
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      },
+      {
+        "id": "nuvio-fresh-browse-by-genre-crime",
+        "title": "Crime",
+        "sources": [
+          {
+            "title": "Crime Movies",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withGenres": "80",
+              "voteCountGte": 80
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      },
+      {
+        "id": "nuvio-fresh-browse-by-genre-comedy",
+        "title": "Comedy",
+        "sources": [
+          {
+            "title": "Comedy Movies",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withGenres": "35",
+              "voteCountGte": 80
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      },
+      {
+        "id": "nuvio-fresh-browse-by-genre-sci-fi",
+        "title": "Sci-Fi",
+        "sources": [
+          {
+            "title": "Sci-Fi Movies",
+            "sortBy": "popularity.desc",
+            "tmdbId": null,
+            "filters": {
+              "withGenres": "878",
+              "voteCountGte": 80
+            },
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "DISCOVER"
+          }
+        ],
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null,
+        "coverImageUrl": null,
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": null
+      }
+    ],
+    "pinToTop": false,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": false,
+    "backdropImageUrl": null,
+    "focusGlowEnabled": false
+  }
+]
